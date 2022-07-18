@@ -1,0 +1,14 @@
+.tao ul{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(111, 204, 207);
+   
+    
+    
+}
+li{
+    margin:0px 50px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
