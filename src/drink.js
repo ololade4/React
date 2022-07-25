@@ -1,9 +1,9 @@
 import React from "react";
 function Drink(){
-    return<h1>beer</h1>
+    return<h1 style={{backgroundColor:"aquamarine", padding:"50px", color: "red"}}>beer</h1>
 }
 function Nodrink(){
-    return<h1>water</h1>
+    return<h1 style={{backgroundColor:"aquamarine", padding:"50px", color: "red"}}>we are taking water today not beer</h1>
 }
 
 function Totake(props){
@@ -14,6 +14,6 @@ function Totake(props){
     return<Nodrink />
 } 
 function Niceone(){
-    return<Totake party={true}/>
+    return<Totake party={false}/>
 } 
 export default Niceone;

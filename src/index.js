@@ -16,11 +16,9 @@ import Tao from './self';
 export default function Main() {
      return (
     <BrowserRouter>
-      <h1 style={{color:"red", paddingLeft:"20px"}}>ValueMax Coder Hub</h1>
+      <h1 style={{color:"red", paddingLeft:"20px"}}>WELCOME TO VALUEMAX CODER HUB</h1>
       
-      <Dev />
-      <Valuemax />  
-      <Niceone /> 
+       
      
       <Routes>
      
@@ -28,10 +26,13 @@ export default function Main() {
           <Route path='/Home' element={ <Home />} />
         <Route path ="/Contact" element={ <Contact />} />
         <Route path="/Basic" element={ <Basic />}/> 
-        <Route index element={<Tao />}/>
+        
         
         </Route>
-      </Routes>
+      </Routes> 
+      <Dev />
+      <Valuemax />  
+      <Niceone />
     </BrowserRouter>
      )  
 };

@@ -1,5 +1,6 @@
 import { Outlet,Link } from "react-router-dom"; 
-import React from "react";
+import React from "react"; 
+import {FaHome, FaReact, FaChrome} from "react-icons/fa";
 import './Layout.css'
 
 
@@ -8,17 +9,18 @@ const Layout = () => {
         <div className="tao">
             <nav>
                 <ul className="header">
-                <li>
-                        <Link to= "/self">First Page </Link>
+                
+                    <li>
+                        < FaHome /><br></br>
+                        <Link to= "/Home"> Home  </Link>
                     </li>
                     <li>
-                        <Link to= "/Home"> Home Page </Link>
+                        <FaReact /><br></br>
+                        <Link to="/Basic "> About </Link>
                     </li>
                     <li>
-                        <Link to="/Basic "> Basic React </Link>
-                    </li>
-                    <li>
-                        <Link to="/Contact"> Contact Us </Link>
+                    <FaChrome /><br></br>
+                        <Link to="/Contact"> Contact </Link>
                     </li>
                     
                 </ul>

@@ -8,7 +8,7 @@ function Dev(){
     const person={name:"ola", job:"Dev", role:"backend"};
     return(
         <div>
-            <h2 style={{paddingLeft:"20px"}}>My name is Tunji</h2>
+            <h2 style={{paddingLeft:"20px"}}>My name is Abayomi</h2>
             <Tunji job={person} />
         </div>
     );

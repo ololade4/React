@@ -2,6 +2,9 @@
     display: flex;
     padding: 10px;
     background-color: rgb(111, 204, 207);
+    flex-direction: row; 
+    margin: 0px auto; 
+    justify-content: space-around;
    
     
     
@@ -11,4 +14,15 @@ li{
     list-style-type: none;
     text-decoration: none;
     font-size: 20px;
-}
+} 
+@media screen and (max-width: 990px) { 
+    .tao ul{
+        display: flex;
+        flex-direction: row; 
+    
+
+        
+    } 
+    
+} 
+
