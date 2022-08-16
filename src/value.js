@@ -16,13 +16,12 @@ function Valuemax(){
 
 
     const tunji=()=>{
-        alert(  "Yes, you are in Abayomi fullstack developer page!!!");
+        alert(  "Yes, you are in ololade fullstack developer page!!!");
        
     }
     return(
         <div style={{paddingLeft:"30px"}}>
-            <h1>Are you sure you are in Abayomi page?</h1>
-            <button onClick={tunji} style={westy}>confirm</button>
+           
         </div>
     )
 }

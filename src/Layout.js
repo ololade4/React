@@ -11,15 +11,15 @@ const Layout = () => {
                 <ul className="header">
                 
                     <li>
-                        < FaHome /><br></br>
+                    
                         <Link to= "/Home"> Home  </Link>
                     </li>
                     <li>
-                        <FaReact /><br></br>
+                        
                         <Link to="/Basic "> About </Link>
                     </li>
                     <li>
-                    <FaChrome /><br></br>
+                   
                         <Link to="/Contact"> Contact </Link>
                     </li>
                     

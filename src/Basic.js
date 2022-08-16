@@ -14,13 +14,10 @@ const Basic = () => {
     }
     return(
         <div style={newstyle}>
-            <h2>React.js have some specific and distinctive properties which makes 
-                it a better option than it counterparts like the ANGULAR, VUE.GS etc.
-                These properties are that the React.js is self-declarative, it is a 
-                simple application to operate on, it is a component based application,
-                React.js supports server side in other to yield the best results, it 
-                has a quick responsiveness, it is used for the handling of view layer
-                of web and mobile apps.
+            <h2>
+All of Google, working for you
+Sign in to your Google Account, and get the most out of all the Google services you use. Your account helps you do more by personalizing your Google experience and offering easy access to your most important information from anywhere
+
                 
             </h2>
             <h3>

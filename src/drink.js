@@ -1,9 +1,9 @@
 import React from "react";
 function Drink(){
-    return<h1 style={{backgroundColor:"aquamarine", padding:"50px", color: "red"}}>beer</h1>
+    return
 }
 function Nodrink(){
-    return<h1 style={{backgroundColor:"aquamarine", padding:"50px", color: "red"}}>we are taking water today not beer</h1>
+    return
 }
 
 function Totake(props){

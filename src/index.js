@@ -16,7 +16,7 @@ import Tao from './self';
 export default function Main() {
      return (
     <BrowserRouter>
-      <h1 style={{color:"red", paddingLeft:"20px"}}>WELCOME TO VALUEMAX CODER HUB</h1>
+      <h1 style={{color:"green", paddingLeft:"20px",textAlign:"center"}}>WELCOME TO VALUEMAX CODER HUB</h1>
       
        
      

@@ -5,18 +5,14 @@ const Contact = () => {
     return(
         <div className={styles.bigclass}>
             <h2>
-            Before you can install react on your system you are going to run 
-            some lines of code on your command line(U can use command prompt 
-            or Gitbash) run [nmp install -g create-react-app ] to install your
-             react app, also run [npx create-react-app index] to create your 
-             react app. You can also run npm -v or npm --version to know the 
-             version of react you I have installed. Nb: make sure u are connected
-              to the internet when u are running the above
+            
+GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests.
+
             </h2>
-            <h3>after you have installed and created your react app in the command line.
-                 To start with, we have created our react app earlier, so you have to 
-                 open the folder name “index” with Vscode and run npm start in your 
-                 terminal to start the react app
+            <h3>
+            How do I make contents for GitHub?
+On GitHub.com, navigate to the main page of the repository. In your repository, browse to the folder where you want to create a file. Above the list of files, using the Add file drop-down, click Create new file. In the file name field, type the name and extension for the file.
+
             </h3>
             <h4>
                start your react app happy hacking.
